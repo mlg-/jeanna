@@ -675,6 +675,7 @@ a:active {
 .page-title {
 	font-size: 50pt;
 	text-align: center;
+	border-bottom: 3px dashed #AB5491;
 }
 
 
