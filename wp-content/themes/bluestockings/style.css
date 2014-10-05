@@ -872,21 +872,29 @@ Landing splash page
 	padding: 8px 15px 8px 15px ;
 }
 
+.social a {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 10px;
+}
 
 
 @media (max-width: 480px) {
 	.site-header a {
-	font-size: 13pt;
+	font-size: 14pt;
 	color: white;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+
+	}
+	.social a {
+		display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
-	.twitter {
-		text-align: left;
-		padding-right: 0px;
-	}
 }
 
 .splash {
@@ -1054,7 +1062,7 @@ Landing splash page
 
 @media (min-width: 481px) and (max-width: 1200px) {
 	.mailchimp {
-		margin-left: 20%;
+		margin-left: 15%;
 	}
 }
 
@@ -1084,6 +1092,12 @@ Landing splash page
 	height: 50px;
 	margin-left: 40%;
 	}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+	.contact {
+	margin-left: 15%;
+}
+}
 
 	@media (max-width: 480px) {
 .contact {

@@ -27,8 +27,9 @@
 			<button class="menu-toggle"><?php _e( 'Primary Menu', 'bluestockings' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			<div class="social">
+ 			<a href="http://t.co/ugJ9dISkf8"><img class="facebook" src="wp-content/themes/bluestockings/images/fb.png"/></a>
  			<a href="https://twitter.com/BluestockingsBo"><img class="twitter" src="wp-content/themes/bluestockings/images/twitter.png"/></a>
- 			<a href="http://t.co/ugJ9dISkf8"><img class="twitter" src="wp-content/themes/bluestockings/images/fb.jpg"/></a>
+
  			</div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
