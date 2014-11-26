@@ -12,16 +12,47 @@
 
 get_header(); ?>
 
+
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+   <main id="main" class="site-main" role="main">
 			<div class="baby-splash"> </div>
 			<div class="splash">
 				<div class="jumbotron-wrapper">
 					<div class="not-yet">coming soon</div>
-					<div class="bluestockings">bluestockings</div>
+			    <div class="launch-button-container">
+			       <div class="launch-button">
+						    <a href="https://www.tilt.com/campaigns/help-bluestockings-launch/">•&nbsp;Help Us Launch!&nbsp;•</a>
+					    </div>
+			    <div class="banner-right-top"></div>
+			    <div class="banner-right-bottom"></div>
+			    <div class="banner-left-top"></div>
+			    <div class="banner-left-bottom"></div>
+    				</div>		
+ 							    <div class="launch-button-container">
+			       <div class="pink-launch-button">
+						    <a href="https://www.tilt.com/campaigns/help-bluestockings-launch/">•&nbsp;Visit our Tilt Campaign&nbsp;•</a>
+					    </div>
+			    <div class="pink-banner-right-top"></div>
+			    <div class="pink-banner-right-bottom"></div>
+			    <div class="pink-banner-left-top"></div>
+			    <div class="pink-banner-left-bottom"></div>
+    				</div>
+    							    <div class="launch-button-container">
+			       <div class="launch-button">
+						    <a href="https://www.tilt.com/campaigns/help-bluestockings-launch/">•&nbsp;Click to Learn More&nbsp;•</a>
+					    </div>
+			    <div class="banner-right-top"></div>
+			    <div class="banner-right-bottom"></div>
+			    <div class="banner-left-top"></div>
+			    <div class="banner-left-bottom"></div>
+    				</div>	<br>	
+					
+  			<div class="bluestockings">bluestockings</div>
 					<div class="alternative">an alternative lingerie boutique</div>
-					<div class="underthings">underthings for everyone</div><br><br>
-				</div>
+					<div class="underthings">underthings for everyone</div><br>
+									</div>  
+
+
 			<div class="mailchimp">
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mc_embed_signup">
@@ -31,7 +62,7 @@ get_header(); ?>
 				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required><br>
 			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 			    <div style="position: absolute; left: -5000px;"><input type="text" name="b_85aa1bdc14611c28a3a893aa9_ebdf8ac3bf" tabindex="-1" value=""></div>
-			    <div class="clear"><input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			    <div class="clear"><input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="mailchimp button"></div>
 			    </div>
 			</form>
 			<br/>

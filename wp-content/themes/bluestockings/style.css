@@ -956,6 +956,7 @@ Landing splash page
 .bluestockings {
 	font-size: 100pt;
 	color: #5465AB;
+	line-height: 1.1em;
 }
 
 @media (min-width: 481px) and (max-width: 1200px) {
@@ -999,6 +1000,198 @@ Landing splash page
 	.underthings {
 		font-size: 20pt;
 	}
+}
+
+
+.launch-button-container {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.launch-button {
+	position: absolute;
+	border: 3px solid #3CB396;
+	width: 280px;
+	left:50%;
+	top: 20px;
+	margin-left: -130px;
+	z-index: 200;
+	transition: border .3s linear;
+	-moz-transition: border .3s linear;
+	-webkit-transition: border .3s linear;
+}
+
+.banner-left-top {
+	width: 0; 
+	height: 0; 
+	border-top: 35px solid #3CB396;
+	border-left: 35px solid transparent;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -155px;
+	z-index: 199;
+}
+
+.banner-left-bottom {
+	width: 0; 
+	height: 0; 
+	border-bottom: 35px solid #3CB396;
+	border-left: 35px solid transparent;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -155px;
+	z-index: 199;
+}
+
+.banner-right-top {
+	width: 0; 
+	height: 0; 
+	border-top: 35px solid #3CB396;
+	border-right: 35px solid transparent;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: 145px;
+	z-index: 199;
+}
+
+.banner-right-bottom {
+	width: 0; 
+	height: 0; 
+	border-bottom: 35px solid #3CB396;
+	border-right: 35px solid transparent;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: 145px;
+	z-index: 199;
+}
+
+.launch-button a:link,
+.launch-button a:visited {
+	background: #3CB396;
+	display: block;
+	width: calc(100%-2px);
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	font-family: helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .10em;
+	padding: 5px 0;
+	border: 2px solid #FFF;
+	text-align: center;
+  text-decoration: none;
+	transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+}
+
+.button:hover {
+	border: 3px solid #FFF;
+}
+
+.button a:hover,
+.button a:active {
+	border: 2px solid #3CB396;
+	color: #3CB396;
+	background: #FFF;
+}
+
+.pink-launch-button {
+	position: absolute;
+	border: 3px solid #8B4A80;
+	width: 280px;
+	left:50%;
+	top: 20px;
+	margin-left: -130px;
+	z-index: 200;
+	transition: border .3s linear;
+	-moz-transition: border .3s linear;
+	-webkit-transition: border .3s linear;
+}
+
+.pink-banner-left-top {
+	width: 0; 
+	height: 0; 
+	border-top: 35px solid #8B4A80;
+	border-left: 35px solid transparent;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -155px;
+	z-index: 199;
+}
+
+.pink-banner-left-bottom {
+	width: 0; 
+	height: 0; 
+	border-bottom: 35px solid #8B4A80;
+	border-left: 35px solid transparent;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -155px;
+	z-index: 199;
+}
+
+.pink-banner-right-top {
+	width: 0; 
+	height: 0; 
+	border-top: 35px solid #8B4A80;
+	border-right: 35px solid transparent;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: 145px;
+	z-index: 199;
+}
+
+.pink-banner-right-bottom {
+	width: 0; 
+	height: 0; 
+	border-bottom: 35px solid #8B4A80;
+	border-right: 35px solid transparent;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: 145px;
+	z-index: 199;
+}
+
+.pink-launch-button a:link,
+.pink-launch-button a:visited {
+	background: #8B4A80;
+	display: block;
+	width: calc(100%-2px);
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	font-family: helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .10em;
+	padding: 5px 0;
+	border: 2px solid #FFF;
+	text-align: center;
+  text-decoration: none;
+	transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+}
+
+.pink-button:hover {
+	border: 3px solid #FFF;
+}
+
+.pink-button a:hover,
+.pink-button a:active {
+	border: 2px solid #8B4A80;
+	color: #3CB396;
+	background: #FFF;
 }
 
 .mailchimp {
@@ -1107,6 +1300,8 @@ Landing splash page
 	margin-left: 10px;
 }
 }
+
+
 
 /* Footer */
 
