@@ -18,8 +18,11 @@ get_header(); ?>
 			<div class="baby-splash"> </div>
 			<div class="splash">
 				<div class="jumbotron-wrapper">
-					<div class="not-yet">coming soon</div>
-			    <div class="launch-button-container">
+					<div class="not-yet">coming soon</div>					
+  			<div class="bluestockings">bluestockings</div>
+					<div class="alternative">an alternative lingerie boutique</div>
+					<div class="underthings">underthings for everyone</div>
+								    <div class="launch-button-container">
 			       <div class="launch-button">
 						    <a href="https://www.tilt.com/campaigns/help-bluestockings-launch/">•&nbsp;Help Us Launch!&nbsp;•</a>
 					    </div>
@@ -46,10 +49,7 @@ get_header(); ?>
 			    <div class="banner-left-top"></div>
 			    <div class="banner-left-bottom"></div>
     				</div>	<br>	
-					
-  			<div class="bluestockings">bluestockings</div>
-					<div class="alternative">an alternative lingerie boutique</div>
-					<div class="underthings">underthings for everyone</div><br>
+<br>
 									</div>  
 
 
