@@ -148,8 +148,6 @@ a img {
 2.0 Typography
 --------------------------------------------------------------*/
 body,
-button,
-input,
 select,
 textarea {
 	color: #404040;
@@ -157,6 +155,11 @@ textarea {
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
+}
+
+button,
+input {
+	font-family: 'bebas_neuelight'
 }
 
 h1,
@@ -571,33 +574,10 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, .8);
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
 	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
-	font-size: 12px;
-	font-size: 1.2rem;
-	line-height: 1;
-	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
-
-button:focus,
-input[type="button"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus,
-button:active,
-input[type="button"]:active,
-input[type="reset"]:active,
-input[type="submit"]:active {
-	border-color: #aaa #bbb #bbb;
-	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
-}
 
 input[type="checkbox"],
 input[type="radio"] {
@@ -619,7 +599,7 @@ button::-moz-focus-inner,
 input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
 	border: 0;
 	padding: 0;
-	font-size: 14pt;
+	font-size: 13pt;
 }
 
 input[type="text"],
@@ -1120,6 +1100,10 @@ object {
 	text-align: center;
 }
 
+.site-header a:hover {
+	color: #444444;
+}
+
 @media (min-width: 481px) and (max-width: 760px) {
 	.site-header a {
 		font-size: 16pt;
@@ -1145,13 +1129,14 @@ Landing splash page
 
 .jumbotron-wrapper {
 	text-align: center;
+	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
 	background-image: url('images/bb.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 370px;
+	height: 340px;
 }
 
 @media (max-width: 760px) {
@@ -1169,9 +1154,9 @@ Landing splash page
 
 h1.coming-soon {
 	color: gray;
-	font-size: 20pt;
+	font-size: 14pt;
 	font-family: 'novecentolight', sans-serif;
-	margin-top: 10px;
+	padding-bottom: 30px;
 }
 
 @media (min-width: 481px) and (max-width: 760px) {
@@ -1222,7 +1207,7 @@ h1.coming-soon {
 
 .launch-button {
 	position: absolute;
-	border: 3px solid #43A2AE;
+	border: 3px solid #04B4BF;
 	width: 280px;
 	left:50%;
 	top: 20px;
@@ -1242,7 +1227,7 @@ h1.coming-soon {
 .banner-left-top {
 	width: 0; 
 	height: 0; 
-	border-top: 35px solid #43A2AE;
+	border-top: 35px solid #04B4BF;
 	border-left: 35px solid transparent;
 	position: absolute;
 	top: 30px;
@@ -1261,7 +1246,7 @@ h1.coming-soon {
 .banner-left-bottom {
 	width: 0; 
 	height: 0; 
-	border-bottom: 35px solid #43A2AE;
+	border-bottom: 35px solid #04B4BF;
 	border-left: 35px solid transparent;
 	position: absolute;
 	top: 30px;
@@ -1281,7 +1266,7 @@ h1.coming-soon {
 .banner-right-top {
 	width: 0; 
 	height: 0; 
-	border-top: 35px solid #43A2AE;
+	border-top: 35px solid #04B4BF;
 	border-right: 35px solid transparent;
 	position: absolute;
 	top: 30px;
@@ -1301,7 +1286,7 @@ h1.coming-soon {
 .banner-right-bottom {
 	width: 0; 
 	height: 0; 
-	border-bottom: 35px solid #43A2AE;
+	border-bottom: 35px solid #04B4BF;
 	border-right: 35px solid transparent;
 	position: absolute;
 	top: 30px;
@@ -1320,7 +1305,7 @@ h1.coming-soon {
 
 .launch-button a:link,
 .launch-button a:visited {
-	background: #43A2AE;
+	background: #04B4BF;
 	display: block;
 	width: calc(100%-2px);
 	color: white;
@@ -1339,14 +1324,14 @@ h1.coming-soon {
 }
 
 .button:hover {
-		color: #43A2AE;
+		color: #04B4BF;
 
 }
 
 .button a:hover,
 .button a:active {
-	border: 2px solid #43A2AE;
-	color: #43A2AE;
+	border: 2px solid #04B4BF;
+	color: #04B4BF;
 	background: #FFF;
 }
 
@@ -1375,7 +1360,7 @@ h1.coming-soon {
 		font-size: 14pt;
 	}
 	.mailchimp input.email {
-		font-size: 14pt;
+		font-size: 13pt;
 	}
 }
 
@@ -1389,33 +1374,29 @@ h1.coming-soon {
 
 .mailchimp input.email {
 	font-family: 'novecentolight', sans-serif;	
-	width: 400px;
 	font-size: 13pt;
 	text-align: center;
 	display: inline-block;
 	margin-right: auto;
 	margin-left: auto;
+	vertical-align: center;
 }
 
 .mailchimp input.button {
-	font-size: 13pt;
-	width: 200px;
-	text-decoration:none;
-	background:-moz-linear-gradient( center top, #ffffff 5%, #f6f6f6 100% );
-	background:-ms-linear-gradient( top, #ffffff 5%, #f6f6f6 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6');
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ffffff), color-stop(100%, #f6f6f6) );
-	background-color:#ffffff;
-	color:#666666;
-	text-shadow:1px 1px 0px #ffffff;
- 	-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
- 	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;
- 	box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 13pt;
+  background: #04B4BF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 0.8em;
 }
 
-.mailchimp input.button:active {
-	position:relative;
-	top:1px;
+.mailchimp input.button:hover {
+	background: #B3B3B3;
+  text-decoration: none;
 }
 
 .mailchimp input.email {
@@ -1436,7 +1417,7 @@ h1.coming-soon {
 	text-align: right;
 	padding-right: 20px;
 	font-size: 11pt;
-	color:#04B4BF;
+	color: black;
 }
 
 
