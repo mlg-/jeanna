@@ -15,8 +15,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-			<h1 class="title-page">The Bluestockings Blog</h1>
+			<header class="entry-header">
+			<h1 id="blog-title" class="page-title">The Bluestockings Blog</h1>
+		</header>
 
 		<?php if ( have_posts() ) : ?>
 
