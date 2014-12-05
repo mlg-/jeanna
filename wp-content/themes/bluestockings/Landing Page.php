@@ -18,8 +18,9 @@ get_header(); ?>
 				<div class="jumbotron-wrapper"><h1 class="coming-soon">C O M I N G &nbsp; S O O N</h1></div>
 					<div class="inner-jumbotron-container">
 						<div class="social">
- 						<a href="http://t.co/ugJ9dISkf8"><img class="facebook" src="wp-content/themes/bluestockings/images/facebook.png"/></a>
- 						<a href="https://twitter.com/BluestockingsBo"><img class="twitter" src="wp-content/themes/bluestockings/images/twitter.png"/></a>
+ 						<a href="http://t.co/ugJ9dISkf8"><img src="wp-content/themes/bluestockings/images/facebook.png"/></a>
+ 						<a href="https://twitter.com/BluestockingsBo"><img src="wp-content/themes/bluestockings/images/twitter.png"/></a>
+ 						<a href="http://www.pinterest.com/bluestockingsbo/"><img src="wp-content/themes/bluestockings/images/pinterest.png"/></a>
  						<a href="mailto:jeanna@bluestockingsboutique.com"><img src="wp-content/themes/bluestockings/images/email.png"/></a> 			
  					</div>
 					<div class="launch-button-container">

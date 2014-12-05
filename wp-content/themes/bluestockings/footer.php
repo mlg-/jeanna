@@ -13,7 +13,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php printf( __( '%1$s theme by %2$s', 'bluestockings' ), 'bluestockings', '<a href="http://mlg.codes" rel="designer">mlg
-&#10085;</a>' ); ?>
+&#10085;</a>' ); ?><br>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
