@@ -21,6 +21,7 @@ get_header(); ?>
  						<a href="http://t.co/ugJ9dISkf8"><img src="wp-content/themes/bluestockings/images/facebook.png"/></a>
  						<a href="https://twitter.com/BluestockingsBo"><img src="wp-content/themes/bluestockings/images/twitter.png"/></a>
  						<a href="http://www.pinterest.com/bluestockingsbo/"><img src="wp-content/themes/bluestockings/images/pinterest.png"/></a>
+ 						<a href="http://instagram.com/bluestockingsbo"><img src="wp-content/themes/bluestockings/images/instagram.png"/></a>
  						<a href="mailto:jeanna@bluestockingsboutique.com"><img src="wp-content/themes/bluestockings/images/email.png"/></a> 			
  					</div>
 					<div class="launch-button-container">
