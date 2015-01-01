@@ -24,15 +24,6 @@ get_header(); ?>
  						<a href="http://instagram.com/bluestockingsbo"><img src="wp-content/themes/bluestockings/images/instagram.png"/></a>
  						<a href="mailto:jeanna@bluestockingsboutique.com"><img src="wp-content/themes/bluestockings/images/email.png"/></a> 			
  					</div>
-					<div class="launch-button-container">
-			       <div class="launch-button">
-						    <a href="https://www.tilt.com/campaigns/help-bluestockings-launch/">•&nbsp;Help Us Launch!&nbsp;•</a>
-					    </div>
-			    <div class="banner-right-top"></div>
-			    <div class="banner-right-bottom"></div>
-			    <div class="banner-left-top"></div>
-			    <div class="banner-left-bottom"></div>
-    				</div>		
 			</div> <!--close inner container--> 
 			</div> <!-- close jumbotron-->
 
