@@ -109,13 +109,13 @@ function bluestockings_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', __( ', ', 'bluestockings' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . __( 'Tagged %1$s', 'bluestockings' ) . '</span>', $tags_list );
+			printf( '<span class="tags-links">' . __( 'Tagged: %1$s ', 'bluestockings' ) . '</span>', $tags_list );
 		}
 	}
 
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo '<span class="comments-link">';
-		comments_popup_link( __( 'Leave a comment', 'bluestockings' ), __( '1 Comment', 'bluestockings' ), __( '% Comments', 'bluestockings' ) );
+		comments_popup_link( __( ' // Leave a comment', 'bluestockings' ), __( '// 1 Comment', 'bluestockings' ), __( '// % Comments', 'bluestockings' ) );
 		echo '</span>';
 	}
 
